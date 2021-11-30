@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    position: sticky;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-banner {
+    background-image: url('../img/logo.png');
+    width: 14%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.image-card {
+  display: block;
+  margin-left: auto;
+
+  margin-right: auto;
+  width: 99%;
+  height: 50%;
+
+}
+
+
+.image-card img {
+}
+
+
+
+
+/* PROBLEM 7: Improve the typography and colors of this page! */
+
+#title {
+  padding: 40px 20px;
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Roboto';
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  border: 1px solid #333;
+  display: flex;
+}
+
+h1{
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size: 32px;
+  font-style: bold;
+  font-family: 'Roboto';
+  flex: 1;
+  text-align:center;
+}
+
+
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  font-size: 21px;
+  font-family: 'Roboto';
+  flex: 1;
+  text-align:center;
+}
